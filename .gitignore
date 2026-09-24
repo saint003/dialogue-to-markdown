@@ -8,6 +8,7 @@
 
 # --- Разрешённые файлы репозитория ---
 !.gitignore
+!LICENSE
 !README.md
 !manifest.json
 !background.js

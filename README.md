@@ -108,4 +108,4 @@ README.md       — This file
 
 ## License
 
-Use and modify as you need for personal or internal workflows.
+[MIT](LICENSE) — Copyright (c) 2026 [saint003](https://github.com/saint003)
