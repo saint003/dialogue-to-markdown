@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Dialogue to Markdown",
+  "version": "0.2.1",
+  "description": "Export chat.qwen.ai conversations to Markdown (full chat or selected messages)",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Выбор сообщений / экспорт в Markdown"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

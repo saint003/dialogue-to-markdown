@@ -1,0 +1,52 @@
+# =============================================================================
+# GitHub: только Chrome-расширение (whitelist).
+# Локально могут лежать тесты, docs, Cursor, node_modules — в git не попадут.
+# =============================================================================
+
+# --- Всё по умолчанию игнорируем ---
+*
+
+# --- Разрешённые файлы репозитория ---
+!.gitignore
+!README.md
+!manifest.json
+!background.js
+!config.js
+!markdown.js
+!exporter.js
+
+# --- Явно: не коммитить (на случай смены стратегии) ---
+.cursor/
+.cursorrules
+.cursorignore
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+credentials.json
+secrets.json
+auth.json
+.npmrc
+.DS_Store
+Thumbs.db
+Desktop.ini
+node_modules/
+dist/
+build/
+.cache/
+data/
+scripts/
+docs/
+selector-helper.js
+exports/
+*.local.md
+*.crx
+*.zip
+test-results/
+playwright-report/
+.playwright/
